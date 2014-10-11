@@ -1,0 +1,101 @@
+.nav {
+    margin: 2px;
+    color: #00b0ff
+}
+
+.nav a {
+    color: #00b0ff;
+}
+
+.jumbotron {
+    border: 2px solid #dbdbdb;
+    content-positioning:50% 50%;
+    content-positioning-anchor:50% 50%;
+}
+
+.jumbotron h1 {
+  color: #393c3d;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #00b0ff;
+}
+
+.jumbotron a {
+    color: #00b0ff;
+}
+
+.sub-sections {
+  background-color: #f7f7f7;
+  border: 2px solid #dbdbdb;
+}
+
+.sub-sections h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-sections a {
+  color: #00b0ff;
+}
+
+.skillset {
+  background-color: #efefef;
+  border: 2px solid #dbdbdb;
+}
+
+.skillset h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.skillset p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.btn-group {
+    width: 88px;
+    height: 31px;
+}
+
+.panel-body small {
+    color: #00b0ff
+}
+
+.email {
+    color: #00b0ff
+}
+
+.panel-body a {
+    color: #00b0ff
+}
+
+.email-two {
+    color: #00b0ff
+}
+
+.instagram {
+    color: #00b0ff
+}
+
+.kik {
+    color: #00b0ff
+}
+
+.imessage {
+    color: #00b0ff
+}
+
+.snapchat {
+    color: #00b0ff
+}
+
+.phone {
+    color: #00b0ff
+}
