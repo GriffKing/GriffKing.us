@@ -2,8 +2,24 @@
 <html>
 
   <head>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <link rel="stylesheet" href="main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://griffking.us/fontello-a8df8675">
+    <link href="https://fontastic.s3.amazonaws.com/KEaiA6ycQehY6R8bpbukPc/icons.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,18 +27,34 @@
   </head>
 
   <body>
-    <div class="nav">
+     <!-- NAVIGATION -->    
+     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
-        <ul class="nav nav-pills pull-left" role="tablist">    
-          <li><a href="http://griffking.us/about">About</a></li>
-          <li><a href="http://griffking.us/projects">Projects</a></li>
-          <li><a href="http://griffking.us/portfolio">Portfolio</a></li>
-        </ul>
-        <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="http://griffking.us/contact">Contact <span class="glyphicon glyphicon-user"></span></a></li>
-        </ul>
-      </div>
-    </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"</span>
+          </button>
+          <a class="navbar-brand" href="http://griffking.us"><strong>Griff King</strong></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="http://griffking.us/about">About <span class="glyphicon glyphicon-home" /></a></li>
+            <li><a href="http://griffking.us/projects">Projects <span class="glyphicon glyphicon-folder-open" /></a></li>
+            <li><a href="http://griffking.us/portfolio">Portfolio <span class="glyphicon glyphicon-picture" /></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="http://griffking.us/contact">Contact <span class="glyphicon glyphicon-user"></span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- nav container -->
+    </nav>
 
     <div class="jumbotron">
       <div class="container">
@@ -48,21 +80,25 @@
             <div class="panel panel-default col-md-8 pull-left">
               <div class="panel-body">
                 <h3>Direct Contact</h3>
-                  <p>For direct contact you can email me <a class="email" href="mailto:swag@griffking.us">swag@griffking.us</a> or to purchase/order something you can email <a class="email-one" href="mailto:business@griffking.us">business@griffking.us</a>. I am a free-lance web devoloper and graphic designer, and I am able to design your site. Before deciding to order a site, you must remember that I am still relatively new to web devolopment. In terms of graphic design, I am experienced and able to do what you ask, as long as it isn't an illustration.</p>
+                  <p>For direct contact you can email me <a class="email" href="mailto:swag@griffking.us">swag@griffking.us</a> or to purchase/order something you can email <a class="email-one" href="mailto:business@griffking.us">business@griffking.us</a>. I am a free-lance web devoloper and graphic designer, and I am able to design your site. Before deciding to order a site, you must remember that I am still relatively new to web development. In terms of graphic design, I am experienced and able to do what you ask, as long as it isn't an illustration.</p>
                 
-                <a class="instagram" href="http://instagram.com/griff.psd">Instagram: Griff.psd </a><br>
-                <div class="snapchat"> Snapchat: GriffIsKing <br></div>
-                <div class="kik"> Kik: GriffKing <br></div>
-                <a class"email-two" href="mailto:swag@griffking.us">Email: swag@griffking.us </a><br>
-                <div class="imessage"> iMessage: swag@griffking.us <br></div>
-                <div class="phone"> Phone: (610) 314-3581 <br></div>
+                <a class="twitter" href="http://twitter.com/griffisking"><i class="icon-twitter"></i> Twitter: @GriffIsKing</a><br>
+                <a class="instagram" href="http://instagram.com/griff.psd"><span class="icon-instagram"></span> Instagram: @Griff.psd</a><br>
+                <a class"email-two" href="mailto:swag@griffking.us"><i class="icon-email-envelope"></i> Email: swag@griffking.us</a><br>
+                <div class="imessage"><span class="icon-apple"></span> iMessage: swag@griffking.us<br></div>
+                <div class="phone"><span class="icon-call-phone"></span> Phone: (610) 314-3581<br></div>
+                <div class="snapchat"><span class="icon-social-snapchat"> Snapchat: GriffIsKing</span><br></div>
+                <div class="kik"><span class="icon-kik"></span> Kik: GriffKing<br></div>
+                <div class="skype"><i class="icon-skype"></i> Skype: griffking.us<br></div>
                 
               </div>
             </div>
-            <div class="col-md-4 pull-left">
-              <a class="twitter-timeline" href="https://twitter.com/GriffIsKing" data-widget-id="498345930010030081">Tweets by @GriffIsKing</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
+            <div class="col-md-4">
+              <div class="container">
+                <a class="twitter-timeline" width="350px" height="338px" href="https://twitter.com/GriffIsKing" data-widget-id="498345930010030081">Tweets by @GriffIsKing</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  
+              </div>
+            </div>      
           </div>    
         </div>
       <br><br>
@@ -90,5 +126,16 @@
 	    </div>
 	  </div>
 	</div>
+  
+  <footer>
+    <p>
+      <small>      
+        <a href="http://twitter.com/griffisking">Follow me on Twitter</a> - 
+        <a href="http://instagram.com/griff.psd">Follow me on Instagram</a> - 
+        <a href="http://github.com/griffking">View my Projects on GitHub</a> - 
+        <a href="http://getbootstrap.com">Built with the Bootstrap Framework</a>
+      </small>
+    </p>
+  </footer>
   </body>
 </html>

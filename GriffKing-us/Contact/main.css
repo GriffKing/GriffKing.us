@@ -1,6 +1,11 @@
+
 .nav {
-    margin: 2px;
-    color: #00b0ff
+    margin-top: 2px;
+    color: #00b0ff;
+}
+
+nav {
+    border-bottom-color: solid #393c3d
 }
 
 .nav a {
@@ -8,7 +13,7 @@
 }
 
 .jumbotron {
-    border: 2px solid #dbdbdb;
+    border: 1px solid #dbdbdb;
     content-positioning:50% 50%;
     content-positioning-anchor:50% 50%;
 }
@@ -31,7 +36,7 @@
 
 .sub-sections {
   background-color: #f7f7f7;
-  border: 2px solid #dbdbdb;
+  border: 1px solid #dbdbdb;
 }
 
 .sub-sections h3 {
@@ -46,7 +51,7 @@
 
 .skillset {
   background-color: #efefef;
-  border: 2px solid #dbdbdb;
+  border: 1px solid #dbdbdb;
 }
 
 .skillset h2 {
@@ -84,7 +89,7 @@
     color: #00b0ff
 }
 
-.kik {
+.skype {
     color: #00b0ff
 }
 
@@ -98,4 +103,87 @@
 
 .phone {
     color: #00b0ff
+}
+
+.kik {
+    color: #00b0ff
+}
+
+.footer {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: #d3d3d3
+}
+
+html {
+    align-content: center;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 25px; /* bottom = footer height */
+    padding-top: 40px; 
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    color: #393c3d
+}
+
+footer a {
+    color: #505353;
+}
+
+nav {
+    background-color: #fff;
+    outline: 1px solid #dbdbdb;
+}
+
+.navbar-brand {
+    color: #393c3d;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    color: #393c3d;
+	background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-top: 6%;
+    text-align: center;
+    padding: 8px;
+    justify-content: center;
+    align-self: center;
+    float: none;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #393c3d;
+	background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-top: 6%;
+    text-align: center;
+    padding: 8px;
+    justify-content: center;
+    align-self: center;
+    float: none;
+}
+
+.navbar-toggle {
+    color: #393c3d;
+    outline: #393c3d;
+    border: 1px solid #dbdbdb;
+    /* background-color: #dbdbdb; */
+}
+
+.icon-bar {
+    color: #dbdbdb;
+    border: 1px solid #dbdbdb;
 }
