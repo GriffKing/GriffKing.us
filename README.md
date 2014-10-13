@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+
   <html>
     <body>
       <h1>My Website</h1>
-      <hr>
       <p>This is my website <a href="http://griffking.us">(griffking.us)</a> and obviously it's completely open source.<br>
       Basically, it just explains who I am, and what I do. Very simple.<br>
       It's built with <a href="http://getbootstrap.com">Bootstrap</a>, a custom HTML, CSS, and jQuery framework.<br>
